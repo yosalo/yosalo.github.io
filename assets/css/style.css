@@ -3065,9 +3065,15 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post .post-date { margin-top: 1em; font-size: 12px; margin-top: 1em; margin-left: 0.5em; }
 
-.theme--dark .post .post-date { color: #343b44; }
+.theme--dark .post .post-date { color: #616d7d; }
 
-.theme--light .post .post-date { color: #15171A; }
+.theme--light .post .post-date { color: white; }
+
+.post .post-date > a { text-decoration: underline; }
+
+.theme--dark .post .post-date > a { color: #96a1ae; }
+
+.theme--light .post .post-date > a { color: white; }
 
 .theme--dark .post strong { color: white; }
 
@@ -3109,9 +3115,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-link-wrapper > .post-meta { font-size: 14px; }
 
-.theme--dark .post-link-wrapper > .post-meta { color: #343b44; }
+.theme--dark .post-link-wrapper > .post-meta { color: #616d7d; }
 
-.theme--light .post-link-wrapper > .post-meta { color: #15171A; }
+.theme--light .post-link-wrapper > .post-meta { color: white; }
 
 .tag-cloud { margin-bottom: 2em; text-align: left; }
 
@@ -3137,13 +3143,13 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .credits { font-size: 10px; }
 
-.theme--dark .credits { color: #292f35; }
+.theme--dark .credits { color: #616d7d; }
 
 .theme--light .credits { color: white; }
 
 .credits > a { text-decoration: underline; }
 
-.theme--dark .credits > a { color: #343b44; }
+.theme--dark .credits > a { color: #96a1ae; }
 
 .theme--light .credits > a { color: white; }
 

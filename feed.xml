@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-28T02:44:15+00:00</updated><id>/feed.xml</id><title type="html">SALOTHEPASSION</title><subtitle>我的惆怅几时荡漾起微恙的涟漪&lt;br&gt; 于风中，于梦里，化作尘泥落红，只余香如故。
-</subtitle><author><name>SALOTHEPASSION</name></author><entry><title type="html">tools for osx</title><link href="/2019/09/13/tools-for-osx.html" rel="alternate" type="text/html" title="tools for osx" /><published>2019-09-13T00:00:00+00:00</published><updated>2019-09-13T00:00:00+00:00</updated><id>/2019/09/13/tools%20for%20osx</id><content type="html" xml:base="/2019/09/13/tools-for-osx.html">&lt;h1 id=&quot;tools-list&quot;&gt;tools list&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-28T03:13:43+00:00</updated><id>/feed.xml</id><title type="html">THEPASSION</title><subtitle>我的惆怅几时荡漾起微恙的涟漪&lt;br&gt; 于风中，于梦里，化作尘泥落红，只余香如故。
+</subtitle><author><name>THEPASSION</name></author><entry><title type="html">tools for osx</title><link href="/2019/09/13/tools-for-osx.html" rel="alternate" type="text/html" title="tools for osx" /><published>2019-09-13T00:00:00+00:00</published><updated>2019-09-13T00:00:00+00:00</updated><id>/2019/09/13/tools%20for%20osx</id><content type="html" xml:base="/2019/09/13/tools-for-osx.html">&lt;h1 id=&quot;tools-list&quot;&gt;tools list&lt;/h1&gt;
 
 &lt;h2 id=&quot;startup&quot;&gt;startup&lt;/h2&gt;
 &lt;ul&gt;
@@ -63,7 +63,7 @@
   &lt;li&gt;sublime text&lt;/li&gt;
   &lt;li&gt;datagrip&lt;/li&gt;
   &lt;li&gt;postman&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>SALOTHEPASSION</name></author><category term="osx" /><summary type="html">tools list</summary></entry><entry><title type="html">clear git branch commit</title><link href="/2019/09/10/clear-git-branch-commit.html" rel="alternate" type="text/html" title="clear git branch commit" /><published>2019-09-10T00:00:00+00:00</published><updated>2019-09-10T00:00:00+00:00</updated><id>/2019/09/10/clear%20git%20branch%20commit</id><content type="html" xml:base="/2019/09/10/clear-git-branch-commit.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--orphan&lt;/span&gt; latest_branch
+&lt;/ul&gt;</content><author><name>THEPASSION</name></author><category term="osx" /><summary type="html">tools list</summary></entry><entry><title type="html">clear git branch commit</title><link href="/2019/09/10/clear-git-branch-commit.html" rel="alternate" type="text/html" title="clear git branch commit" /><published>2019-09-10T00:00:00+00:00</published><updated>2019-09-10T00:00:00+00:00</updated><id>/2019/09/10/clear%20git%20branch%20commit</id><content type="html" xml:base="/2019/09/10/clear-git-branch-commit.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--orphan&lt;/span&gt; latest_branch
 
 git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
 
@@ -73,57 +73,57 @@ git branch &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; master
 
 git branch &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; master
 
-git push &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>SALOTHEPASSION</name></author><category term="git" /><summary type="html">git checkout --orphan latest_branch</summary></entry><entry><title type="html">Like u</title><link href="/2017/06/09/Like-u.html" rel="alternate" type="text/html" title="Like u" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/Like%20u</id><content type="html" xml:base="/2017/06/09/Like-u.html">&lt;p&gt;&lt;strong&gt;我知道我们这辈子可能永远见不了面了
-但是街角闹腾的人声像你
-床角散落的余味像你
-人群中散落的发香像你
-偶然闯入耳膜的笑声像你
-我迷茫灰暗的青春只有你&lt;/strong&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">我知道我们这辈子可能永远见不了面了 但是街角闹腾的人声像你 床角散落的余味像你 人群中散落的发香像你 偶然闯入耳膜的笑声像你 我迷茫灰暗的青春只有你</summary></entry><entry><title type="html">black</title><link href="/2017/06/09/black.html" rel="alternate" type="text/html" title="black" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/black</id><content type="html" xml:base="/2017/06/09/black.html">&lt;p&gt;&lt;strong&gt;找一个可以掩埋自己的角落
-蜷缩着身体紧紧的倚着墙壁
-至少这样可以让我又依靠感
-把脸庞深深的掩在双腿之下
-隐忍痛苦的黄色脸庞捂着如血色的红
-耳边传来匆匆的脚步声和暴动嘈杂的狂吼
-我看到一张张他们在一张张平和微笑的脸皮内
-一个个强忍着痛苦的脸庞麻木的扭曲
-面前充斥着朦胧虚幻的黑色路口
-他们强压着胸膛倒在地上疼痛的呻吟
-冥冥中隐匿身躯中的欲望急速冲出穿过黑色路口
-目光呆滞望着望着
-在绚烂霓虹的照射下变得晶莹剔透
-轰然间爆碎喷射在面前&lt;/strong&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">找一个可以掩埋自己的角落 蜷缩着身体紧紧的倚着墙壁 至少这样可以让我又依靠感 把脸庞深深的掩在双腿之下 隐忍痛苦的黄色脸庞捂着如血色的红 耳边传来匆匆的脚步声和暴动嘈杂的狂吼 我看到一张张他们在一张张平和微笑的脸皮内 一个个强忍着痛苦的脸庞麻木的扭曲 面前充斥着朦胧虚幻的黑色路口 他们强压着胸膛倒在地上疼痛的呻吟 冥冥中隐匿身躯中的欲望急速冲出穿过黑色路口 目光呆滞望着望着 在绚烂霓虹的照射下变得晶莹剔透 轰然间爆碎喷射在面前</summary></entry><entry><title type="html">私奔</title><link href="/2017/06/09/%E7%A7%81%E5%A5%94.html" rel="alternate" type="text/html" title="私奔" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/%E7%A7%81%E5%A5%94</id><content type="html" xml:base="/2017/06/09/%E7%A7%81%E5%A5%94.html">&lt;p&gt;&lt;em&gt;是爱&lt;/em&gt;
-&lt;em&gt;是癌&lt;/em&gt;
-&lt;em&gt;是如来&lt;/em&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">是爱 是癌 是如来</summary></entry><entry><title type="html">浮生若梦</title><link href="/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6.html" rel="alternate" type="text/html" title="浮生若梦" /><published>2017-06-08T00:00:00+00:00</published><updated>2017-06-08T00:00:00+00:00</updated><id>/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6</id><content type="html" xml:base="/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6.html">&lt;h1 id=&quot;殇夜&quot;&gt;殇夜&lt;/h1&gt;
+git push &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>THEPASSION</name></author><category term="git" /><summary type="html">git checkout --orphan latest_branch</summary></entry><entry><title type="html">Like u</title><link href="/2017/06/09/Like-u.html" rel="alternate" type="text/html" title="Like u" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/Like%20u</id><content type="html" xml:base="/2017/06/09/Like-u.html">&lt;p&gt;&lt;strong&gt;我知道我们这辈子可能永远见不了面了&lt;br /&gt;
+但是街角闹腾的人声像你&lt;br /&gt;
+床角散落的余味像你&lt;br /&gt;
+人群中散落的发香像你&lt;br /&gt;
+偶然闯入耳膜的笑声像你&lt;br /&gt;
+我迷茫灰暗的青春只有你&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>THEPASSION</name></author><category term="essay" /><summary type="html">我知道我们这辈子可能永远见不了面了 但是街角闹腾的人声像你 床角散落的余味像你 人群中散落的发香像你 偶然闯入耳膜的笑声像你 我迷茫灰暗的青春只有你</summary></entry><entry><title type="html">black</title><link href="/2017/06/09/black.html" rel="alternate" type="text/html" title="black" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/black</id><content type="html" xml:base="/2017/06/09/black.html">&lt;p&gt;&lt;strong&gt;找一个可以掩埋自己的角落&lt;br /&gt;
+蜷缩着身体紧紧的倚着墙壁&lt;br /&gt;
+至少这样可以让我又依靠感&lt;br /&gt;
+把脸庞深深的掩在双腿之下&lt;br /&gt;
+隐忍痛苦的黄色脸庞捂着如血色的红&lt;br /&gt;
+耳边传来匆匆的脚步声和暴动嘈杂的狂吼&lt;br /&gt;
+我看到一张张他们在一张张平和微笑的脸皮内&lt;br /&gt;
+一个个强忍着痛苦的脸庞麻木的扭曲&lt;br /&gt;
+面前充斥着朦胧虚幻的黑色路口&lt;br /&gt;
+他们强压着胸膛倒在地上疼痛的呻吟&lt;br /&gt;
+冥冥中隐匿身躯中的欲望急速冲出穿过黑色路口&lt;br /&gt;
+目光呆滞望着望着&lt;br /&gt;
+在绚烂霓虹的照射下变得晶莹剔透&lt;br /&gt;
+轰然间爆碎喷射在面前&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>THEPASSION</name></author><category term="essay" /><summary type="html">找一个可以掩埋自己的角落 蜷缩着身体紧紧的倚着墙壁 至少这样可以让我又依靠感 把脸庞深深的掩在双腿之下 隐忍痛苦的黄色脸庞捂着如血色的红 耳边传来匆匆的脚步声和暴动嘈杂的狂吼 我看到一张张他们在一张张平和微笑的脸皮内 一个个强忍着痛苦的脸庞麻木的扭曲 面前充斥着朦胧虚幻的黑色路口 他们强压着胸膛倒在地上疼痛的呻吟 冥冥中隐匿身躯中的欲望急速冲出穿过黑色路口 目光呆滞望着望着 在绚烂霓虹的照射下变得晶莹剔透 轰然间爆碎喷射在面前</summary></entry><entry><title type="html">私奔</title><link href="/2017/06/09/%E7%A7%81%E5%A5%94.html" rel="alternate" type="text/html" title="私奔" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/%E7%A7%81%E5%A5%94</id><content type="html" xml:base="/2017/06/09/%E7%A7%81%E5%A5%94.html">&lt;p&gt;&lt;em&gt;是爱&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;是癌&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;是如来&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>THEPASSION</name></author><category term="essay" /><summary type="html">是爱 是癌 是如来</summary></entry><entry><title type="html">浮生若梦</title><link href="/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6.html" rel="alternate" type="text/html" title="浮生若梦" /><published>2017-06-08T00:00:00+00:00</published><updated>2017-06-08T00:00:00+00:00</updated><id>/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6</id><content type="html" xml:base="/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6.html">&lt;h1 id=&quot;殇夜&quot;&gt;殇夜&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;眼前流乱满目萎靡的奢洛色彩，肆意张扬的闪耀着。
-却在人流冷清的朱门前，煞是奢靡。
-路边宽敞的大道上摇曳着弱弱米黄的灯光，
-矗立着一道落寞的身影，
-皎洁的月光直落落的洒在她的身上。
-她明媚的双眼中流露出落寞的目光。
-是否她也在思念着远方的他呢。
-申时，天渐渐寒了起来。
-她迈着轻巧的小步走到床前。
+&lt;p&gt;&lt;strong&gt;眼前流乱满目萎靡的奢洛色彩，肆意张扬的闪耀着&lt;br /&gt;
+却在人流冷清的朱门前，煞是奢靡&lt;br /&gt;
+路边宽敞的大道上摇曳着弱弱米黄的灯光&lt;br /&gt;
+矗立着一道落寞的身影&lt;br /&gt;
+皎洁的月光直落落的洒在她的身上&lt;br /&gt;
+她明媚的双眼中流露出落寞的目光&lt;br /&gt;
+是否她也在思念着远方的他呢&lt;br /&gt;
+申时，天渐渐寒了起来&lt;br /&gt;
+她迈着轻巧的小步走到床前&lt;br /&gt;
 轻俯而卧。&lt;/strong&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;h1 id=&quot;逝日&quot;&gt;逝日&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;天空中泛着一丝弱弱的微白，
-偶尔不擅于安静的麻雀也轻点而过。
-稀散的路人慵懒的走在小道上，
-风起，零碎的思念泛集成思。
-随着时间的洪流泛滥而去。&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;天空中泛着一丝弱弱的微白&lt;br /&gt;
+偶尔不擅于安静的麻雀也轻点而过&lt;br /&gt;
+稀散的路人慵懒的走在小道上&lt;br /&gt;
+风起，零碎的思念泛集成思&lt;br /&gt;
+随着时间的洪流泛滥而去&lt;br /&gt;&lt;/strong&gt;
 &lt;br /&gt;
-以此献给那些心中有着思念的人。&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">殇夜</summary></entry><entry><title type="html">broke heart</title><link href="/2017/06/07/broke-heart.html" rel="alternate" type="text/html" title="broke heart" /><published>2017-06-07T00:00:00+00:00</published><updated>2017-06-07T00:00:00+00:00</updated><id>/2017/06/07/broke%20heart</id><content type="html" xml:base="/2017/06/07/broke-heart.html">&lt;p&gt;&lt;strong&gt;我想我不是个疯狂的人
-可是我心中却隐然存在那种疯狂
-在耳边传来强烈暴躁的音乐盒歇斯底里的嘶吼时
-冥冥中看到那个扭曲夭折的路口
-在陌生的路上看到一张张那隐忍着痛苦的脸庞
-胸口中那暴动的情绪奔涌而出
-我在看到自己那隐藏自己身躯中最初梦想
-急速的冲在我的面前
-在我的面前停留着，停留着
-刹那间轰然粉碎,消失的无影无踪&lt;/strong&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">我想我不是个疯狂的人 可是我心中却隐然存在那种疯狂 在耳边传来强烈暴躁的音乐盒歇斯底里的嘶吼时 冥冥中看到那个扭曲夭折的路口 在陌生的路上看到一张张那隐忍着痛苦的脸庞 胸口中那暴动的情绪奔涌而出 我在看到自己那隐藏自己身躯中最初梦想 急速的冲在我的面前 在我的面前停留着，停留着 刹那间轰然粉碎,消失的无影无踪</summary></entry><entry><title type="html">Common Regular expression</title><link href="/2017/03/18/Common-Regular-expression.html" rel="alternate" type="text/html" title="Common Regular expression" /><published>2017-03-18T00:00:00+00:00</published><updated>2017-03-18T00:00:00+00:00</updated><id>/2017/03/18/Common%20Regular%20expression</id><content type="html" xml:base="/2017/03/18/Common-Regular-expression.html">&lt;p&gt;Common Regular expression&lt;/p&gt;
+以此献给那些心中有着思念的人。&lt;/p&gt;</content><author><name>THEPASSION</name></author><category term="essay" /><summary type="html">殇夜</summary></entry><entry><title type="html">broke heart</title><link href="/2017/06/07/broke-heart.html" rel="alternate" type="text/html" title="broke heart" /><published>2017-06-07T00:00:00+00:00</published><updated>2017-06-07T00:00:00+00:00</updated><id>/2017/06/07/broke%20heart</id><content type="html" xml:base="/2017/06/07/broke-heart.html">&lt;p&gt;&lt;strong&gt;我想我不是个疯狂的人&lt;br /&gt;
+可是我心中却隐然存在那种疯狂&lt;br /&gt;
+在耳边传来强烈暴躁的音乐盒歇斯底里的嘶吼时&lt;br /&gt;
+冥冥中看到那个扭曲夭折的路口&lt;br /&gt;
+在陌生的路上看到一张张那隐忍着痛苦的脸庞&lt;br /&gt;
+胸口中那暴动的情绪奔涌而出&lt;br /&gt;
+我在看到自己那隐藏自己身躯中最初梦想&lt;br /&gt;
+急速的冲在我的面前&lt;br /&gt;
+在我的面前停留着，停留着&lt;br /&gt;
+刹那间轰然粉碎,消失的无影无踪&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>THEPASSION</name></author><category term="essay" /><summary type="html">我想我不是个疯狂的人 可是我心中却隐然存在那种疯狂 在耳边传来强烈暴躁的音乐盒歇斯底里的嘶吼时 冥冥中看到那个扭曲夭折的路口 在陌生的路上看到一张张那隐忍着痛苦的脸庞 胸口中那暴动的情绪奔涌而出 我在看到自己那隐藏自己身躯中最初梦想 急速的冲在我的面前 在我的面前停留着，停留着 刹那间轰然粉碎,消失的无影无踪</summary></entry><entry><title type="html">Common Regular expression</title><link href="/2017/03/18/Common-Regular-expression.html" rel="alternate" type="text/html" title="Common Regular expression" /><published>2017-03-18T00:00:00+00:00</published><updated>2017-03-18T00:00:00+00:00</updated><id>/2017/03/18/Common%20Regular%20expression</id><content type="html" xml:base="/2017/03/18/Common-Regular-expression.html">&lt;p&gt;Common Regular expression&lt;/p&gt;
 
 &lt;h2 id=&quot;校验数字的表达式&quot;&gt;校验数字的表达式&lt;/h2&gt;
 &lt;ol&gt;
@@ -459,7 +459,7 @@ git push &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; origin master&lt;/code
       &lt;/tbody&gt;
     &lt;/table&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>SALOTHEPASSION</name></author><category term="Regular" /><summary type="html">Common Regular expression</summary></entry><entry><title type="html">常用GIt命令</title><link href="/2017/03/18/common-git-command.html" rel="alternate" type="text/html" title="常用GIt命令" /><published>2017-03-18T00:00:00+00:00</published><updated>2017-03-18T00:00:00+00:00</updated><id>/2017/03/18/common%20git%20command</id><content type="html" xml:base="/2017/03/18/common-git-command.html">&lt;h3 id=&quot;基本命令&quot;&gt;基本命令&lt;/h3&gt;
+&lt;/ol&gt;</content><author><name>THEPASSION</name></author><category term="Regular" /><summary type="html">Common Regular expression</summary></entry><entry><title type="html">常用GIt命令</title><link href="/2017/03/18/common-git-command.html" rel="alternate" type="text/html" title="常用GIt命令" /><published>2017-03-18T00:00:00+00:00</published><updated>2017-03-18T00:00:00+00:00</updated><id>/2017/03/18/common%20git%20command</id><content type="html" xml:base="/2017/03/18/common-git-command.html">&lt;h3 id=&quot;基本命令&quot;&gt;基本命令&lt;/h3&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 安装Git&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git
@@ -681,7 +681,7 @@ git push &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; origin master&lt;/code
 &lt;span class=&quot;c&quot;&gt;# log&lt;/span&gt;
 git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.lg &lt;span class=&quot;s2&quot;&gt;&quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset' --abbrev-commit&quot;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# 每个仓库的配置文件放在.git/config&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# 当前用户的配置文件放在用户主目录下的一个隐藏文件.gitconfig中&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>SALOTHEPASSION</name></author><category term="Git" /><summary type="html">基本命令 # 安装Git $ sudo apt install git</summary></entry><entry><title type="html">Generating a new SSH key and adding it to the ssh-agent</title><link href="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html" rel="alternate" type="text/html" title="Generating a new SSH key and adding it to the ssh-agent" /><published>2016-12-31T00:00:00+00:00</published><updated>2016-12-31T00:00:00+00:00</updated><id>/2016/12/31/Generating%20a%20new%20SSH%20key%20and%20adding%20it%20to%20the%20ssh-agent</id><content type="html" xml:base="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html">&lt;h1 id=&quot;add-to-ssh-agent&quot;&gt;add to ssh-agent&lt;/h1&gt;
+&lt;span class=&quot;c&quot;&gt;# 当前用户的配置文件放在用户主目录下的一个隐藏文件.gitconfig中&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>THEPASSION</name></author><category term="Git" /><summary type="html">基本命令 # 安装Git $ sudo apt install git</summary></entry><entry><title type="html">Generating a new SSH key and adding it to the ssh-agent</title><link href="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html" rel="alternate" type="text/html" title="Generating a new SSH key and adding it to the ssh-agent" /><published>2016-12-31T00:00:00+00:00</published><updated>2016-12-31T00:00:00+00:00</updated><id>/2016/12/31/Generating%20a%20new%20SSH%20key%20and%20adding%20it%20to%20the%20ssh-agent</id><content type="html" xml:base="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html">&lt;h1 id=&quot;add-to-ssh-agent&quot;&gt;add to ssh-agent&lt;/h1&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#打开终端&lt;/span&gt;
 ssh-keygen &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rsa &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; 4096 &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your_email@example.com&quot;&lt;/span&gt;
@@ -699,4 +699,4 @@ Enter same passphrase again: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Type 
 &lt;span class=&quot;c&quot;&gt;#这里的id_rsa是你生成&lt;/span&gt;
 ssh-add ~/.ssh/id_rsa
 
-&lt;span class=&quot;c&quot;&gt;#因为这个是往session里面添加key,所以当机器重启的的时候，需要重新再次往ssh-agent里面添加key&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>SALOTHEPASSION</name></author><category term="Git" /><summary type="html">add to ssh-agent #打开终端 ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</summary></entry></feed>
+&lt;span class=&quot;c&quot;&gt;#因为这个是往session里面添加key,所以当机器重启的的时候，需要重新再次往ssh-agent里面添加key&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>THEPASSION</name></author><category term="Git" /><summary type="html">add to ssh-agent #打开终端 ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</summary></entry></feed>
