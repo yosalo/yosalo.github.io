@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-28T02:30:21+00:00</updated><id>/feed.xml</id><title type="html">SALOTHEPASSION</title><subtitle>我的惆怅几时荡漾起微恙的涟漪&lt;br&gt; 于风中，于梦里，化作尘泥落红，只余香如故。
+</subtitle><author><name>SALOTHEPASSION</name></author><entry><title type="html">tools for osx</title><link href="/2019/09/13/tools-for-osx.html" rel="alternate" type="text/html" title="tools for osx" /><published>2019-09-13T00:00:00+00:00</published><updated>2019-09-13T00:00:00+00:00</updated><id>/2019/09/13/tools%20for%20osx</id><content type="html" xml:base="/2019/09/13/tools-for-osx.html">&lt;h1 id=&quot;tools-list&quot;&gt;tools list&lt;/h1&gt;
+
+&lt;h2 id=&quot;startup&quot;&gt;startup&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;hammerspoon&lt;/li&gt;
+  &lt;li&gt;dropbox&lt;/li&gt;
+  &lt;li&gt;contexts&lt;/li&gt;
+  &lt;li&gt;cheatsheet&lt;/li&gt;
+  &lt;li&gt;annotate&lt;/li&gt;
+  &lt;li&gt;alfred 4&lt;/li&gt;
+  &lt;li&gt;cleanmymacx&lt;/li&gt;
+  &lt;li&gt;jetbrains toolbox&lt;/li&gt;
+  &lt;li&gt;1password&lt;/li&gt;
+  &lt;li&gt;istat menus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;daily&quot;&gt;daily&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;vox&lt;/li&gt;
+  &lt;li&gt;chrome&lt;/li&gt;
+  &lt;li&gt;firefox&lt;/li&gt;
+  &lt;li&gt;microsoft world/excel&lt;/li&gt;
+  &lt;li&gt;downie 3&lt;/li&gt;
+  &lt;li&gt;thunder&lt;/li&gt;
+  &lt;li&gt;wechat/qq&lt;/li&gt;
+  &lt;li&gt;iina&lt;/li&gt;
+  &lt;li&gt;pdf expert&lt;/li&gt;
+  &lt;li&gt;ip scanner&lt;/li&gt;
+  &lt;li&gt;iterm&lt;/li&gt;
+  &lt;li&gt;proxifier&lt;/li&gt;
+  &lt;li&gt;karabiner-elements&lt;/li&gt;
+  &lt;li&gt;neteasemusic&lt;/li&gt;
+  &lt;li&gt;reeder&lt;/li&gt;
+  &lt;li&gt;mweb&lt;/li&gt;
+  &lt;li&gt;things&lt;/li&gt;
+  &lt;li&gt;test2image&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;terminal&quot;&gt;terminal&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;oh my zsh&lt;/li&gt;
+  &lt;li&gt;ctop&lt;/li&gt;
+  &lt;li&gt;fzy&lt;/li&gt;
+  &lt;li&gt;autojump&lt;/li&gt;
+  &lt;li&gt;telnet&lt;/li&gt;
+  &lt;li&gt;tmux&lt;/li&gt;
+  &lt;li&gt;wget&lt;/li&gt;
+  &lt;li&gt;yarn&lt;/li&gt;
+  &lt;li&gt;node&lt;/li&gt;
+  &lt;li&gt;shadowsocks-libev&lt;/li&gt;
+  &lt;li&gt;ydict&lt;/li&gt;
+  &lt;li&gt;jq&lt;/li&gt;
+  &lt;li&gt;nuget&lt;/li&gt;
+  &lt;li&gt;gopass&lt;/li&gt;
+  &lt;li&gt;python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;work&quot;&gt;work&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;docker&lt;/li&gt;
+  &lt;li&gt;vscode&lt;/li&gt;
+  &lt;li&gt;sublime text&lt;/li&gt;
+  &lt;li&gt;datagrip&lt;/li&gt;
+  &lt;li&gt;postman&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>SALOTHEPASSION</name></author><category term="osx" /><summary type="html">tools list</summary></entry><entry><title type="html">clear git branch commit</title><link href="/2019/09/10/clear-git-branch-commit.html" rel="alternate" type="text/html" title="clear git branch commit" /><published>2019-09-10T00:00:00+00:00</published><updated>2019-09-10T00:00:00+00:00</updated><id>/2019/09/10/clear%20git%20branch%20commit</id><content type="html" xml:base="/2019/09/10/clear-git-branch-commit.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--orphan&lt;/span&gt; latest_branch
+
+git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
+
+git commit &lt;span class=&quot;nt&quot;&gt;-am&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;commit message&quot;&lt;/span&gt;
+
+git branch &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; master
+
+git branch &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; master
+
+git push &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>SALOTHEPASSION</name></author><category term="git" /><summary type="html">git checkout --orphan latest_branch</summary></entry><entry><title type="html">Like u</title><link href="/2017/06/09/Like-u.html" rel="alternate" type="text/html" title="Like u" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/Like%20u</id><content type="html" xml:base="/2017/06/09/Like-u.html">&lt;p&gt;&lt;strong&gt;我知道我们这辈子可能永远见不了面了
+但是街角闹腾的人声像你
+床角散落的余味像你
+人群中散落的发香像你
+偶然闯入耳膜的笑声像你
+我迷茫灰暗的青春只有你&lt;/strong&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">我知道我们这辈子可能永远见不了面了 但是街角闹腾的人声像你 床角散落的余味像你 人群中散落的发香像你 偶然闯入耳膜的笑声像你 我迷茫灰暗的青春只有你</summary></entry><entry><title type="html">black</title><link href="/2017/06/09/black.html" rel="alternate" type="text/html" title="black" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/black</id><content type="html" xml:base="/2017/06/09/black.html">&lt;p&gt;&lt;strong&gt;找一个可以掩埋自己的角落
+蜷缩着身体紧紧的倚着墙壁
+至少这样可以让我又依靠感
+把脸庞深深的掩在双腿之下
+隐忍痛苦的黄色脸庞捂着如血色的红
+耳边传来匆匆的脚步声和暴动嘈杂的狂吼
+我看到一张张他们在一张张平和微笑的脸皮内
+一个个强忍着痛苦的脸庞麻木的扭曲
+面前充斥着朦胧虚幻的黑色路口
+他们强压着胸膛倒在地上疼痛的呻吟
+冥冥中隐匿身躯中的欲望急速冲出穿过黑色路口
+目光呆滞望着望着
+在绚烂霓虹的照射下变得晶莹剔透
+轰然间爆碎喷射在面前&lt;/strong&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">找一个可以掩埋自己的角落 蜷缩着身体紧紧的倚着墙壁 至少这样可以让我又依靠感 把脸庞深深的掩在双腿之下 隐忍痛苦的黄色脸庞捂着如血色的红 耳边传来匆匆的脚步声和暴动嘈杂的狂吼 我看到一张张他们在一张张平和微笑的脸皮内 一个个强忍着痛苦的脸庞麻木的扭曲 面前充斥着朦胧虚幻的黑色路口 他们强压着胸膛倒在地上疼痛的呻吟 冥冥中隐匿身躯中的欲望急速冲出穿过黑色路口 目光呆滞望着望着 在绚烂霓虹的照射下变得晶莹剔透 轰然间爆碎喷射在面前</summary></entry><entry><title type="html">私奔</title><link href="/2017/06/09/%E7%A7%81%E5%A5%94.html" rel="alternate" type="text/html" title="私奔" /><published>2017-06-09T00:00:00+00:00</published><updated>2017-06-09T00:00:00+00:00</updated><id>/2017/06/09/%E7%A7%81%E5%A5%94</id><content type="html" xml:base="/2017/06/09/%E7%A7%81%E5%A5%94.html">&lt;p&gt;&lt;em&gt;是爱&lt;/em&gt;
+&lt;em&gt;是癌&lt;/em&gt;
+&lt;em&gt;是如来&lt;/em&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">是爱 是癌 是如来</summary></entry><entry><title type="html">浮生若梦</title><link href="/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6.html" rel="alternate" type="text/html" title="浮生若梦" /><published>2017-06-08T00:00:00+00:00</published><updated>2017-06-08T00:00:00+00:00</updated><id>/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6</id><content type="html" xml:base="/2017/06/08/%E6%B5%AE%E7%94%9F%E8%8B%A5%E6%A2%A6.html">&lt;h1 id=&quot;殇夜&quot;&gt;殇夜&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;眼前流乱满目萎靡的奢洛色彩，肆意张扬的闪耀着。
+却在人流冷清的朱门前，煞是奢靡。
+路边宽敞的大道上摇曳着弱弱米黄的灯光，
+矗立着一道落寞的身影，
+皎洁的月光直落落的洒在她的身上。
+她明媚的双眼中流露出落寞的目光。
+是否她也在思念着远方的他呢。
+申时，天渐渐寒了起来。
+她迈着轻巧的小步走到床前。
+轻俯而卧。&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;逝日&quot;&gt;逝日&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;天空中泛着一丝弱弱的微白，
+偶尔不擅于安静的麻雀也轻点而过。
+稀散的路人慵懒的走在小道上，
+风起，零碎的思念泛集成思。
+随着时间的洪流泛滥而去。&lt;/strong&gt;
+&lt;br /&gt;
+以此献给那些心中有着思念的人。&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">殇夜</summary></entry><entry><title type="html">broke heart</title><link href="/2017/06/07/broke-heart.html" rel="alternate" type="text/html" title="broke heart" /><published>2017-06-07T00:00:00+00:00</published><updated>2017-06-07T00:00:00+00:00</updated><id>/2017/06/07/broke%20heart</id><content type="html" xml:base="/2017/06/07/broke-heart.html">&lt;p&gt;&lt;strong&gt;我想我不是个疯狂的人
+可是我心中却隐然存在那种疯狂
+在耳边传来强烈暴躁的音乐盒歇斯底里的嘶吼时
+冥冥中看到那个扭曲夭折的路口
+在陌生的路上看到一张张那隐忍着痛苦的脸庞
+胸口中那暴动的情绪奔涌而出
+我在看到自己那隐藏自己身躯中最初梦想
+急速的冲在我的面前
+在我的面前停留着，停留着
+刹那间轰然粉碎,消失的无影无踪&lt;/strong&gt;&lt;/p&gt;</content><author><name>SALOTHEPASSION</name></author><category term="essay" /><summary type="html">我想我不是个疯狂的人 可是我心中却隐然存在那种疯狂 在耳边传来强烈暴躁的音乐盒歇斯底里的嘶吼时 冥冥中看到那个扭曲夭折的路口 在陌生的路上看到一张张那隐忍着痛苦的脸庞 胸口中那暴动的情绪奔涌而出 我在看到自己那隐藏自己身躯中最初梦想 急速的冲在我的面前 在我的面前停留着，停留着 刹那间轰然粉碎,消失的无影无踪</summary></entry><entry><title type="html">Common Regular expression</title><link href="/2017/03/18/Common-Regular-expression.html" rel="alternate" type="text/html" title="Common Regular expression" /><published>2017-03-18T00:00:00+00:00</published><updated>2017-03-18T00:00:00+00:00</updated><id>/2017/03/18/Common%20Regular%20expression</id><content type="html" xml:base="/2017/03/18/Common-Regular-expression.html">&lt;p&gt;Common Regular expression&lt;/p&gt;
+
+&lt;h2 id=&quot;校验数字的表达式&quot;&gt;校验数字的表达式&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;数字：^[0-9]*$&lt;/li&gt;
+  &lt;li&gt;n位的数字：^\d{n}$&lt;/li&gt;
+  &lt;li&gt;至少n位的数字：^\d{n,}$&lt;/li&gt;
+  &lt;li&gt;m-n位的数字：^\d{m,n}$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;零和非零开头的数字：^(0&lt;/td&gt;
+          &lt;td&gt;[1-9][0-9]*)$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$&lt;/li&gt;
+  &lt;li&gt;带1-2位小数的正数或负数：^(-)?\d+(.\d{1,2})?$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;正数、负数、和小数：^(-&lt;/td&gt;
+          &lt;td&gt;+)?\d+(.\d+)?$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;有两位小数的正实数：^[0-9]+(.[0-9]{2})?$&lt;/li&gt;
+  &lt;li&gt;有1~3位小数的正实数：^[0-9]+(.[0-9]{1,3})?$&lt;/li&gt;
+  &lt;li&gt;非零的正整数：^[1-9]\d&lt;em&gt;$ 或 ^([1-9][0-9]&lt;/em&gt;){1,3}$ 或 ^+?[1-9][0-9]*$&lt;/li&gt;
+  &lt;li&gt;非零的负整数：^-[1-9][]0-9”&lt;em&gt;$ 或 ^-[1-9]\d&lt;/em&gt;$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;非负整数：^\d+$ 或 ^[1-9]\d*&lt;/td&gt;
+          &lt;td&gt;0$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;非正整数：^-[1-9]\d*&lt;/td&gt;
+          &lt;td&gt;0$ 或 ^((-\d+)&lt;/td&gt;
+          &lt;td&gt;(0+))$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;非负浮点数：^\d+(.\d+)?$ 或 ^[1-9]\d&lt;em&gt;.\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0.\d&lt;em&gt;[1-9]\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0?.0+&lt;/td&gt;
+          &lt;td&gt;0$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;非正浮点数：^((-\d+(.\d+)?)&lt;/td&gt;
+          &lt;td&gt;(0+(.0+)?))$ 或 ^(-([1-9]\d&lt;em&gt;.\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0.\d&lt;em&gt;[1-9]\d&lt;/em&gt;))&lt;/td&gt;
+          &lt;td&gt;0?.0+&lt;/td&gt;
+          &lt;td&gt;0$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;正浮点数：^[1-9]\d&lt;em&gt;.\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0.\d&lt;em&gt;[1-9]\d&lt;/em&gt;$ 或 ^(([0-9]+.[0-9]&lt;em&gt;[1-9][0-9]&lt;/em&gt;)&lt;/td&gt;
+          &lt;td&gt;([0-9]&lt;em&gt;[1-9][0-9]&lt;/em&gt;.[0-9]+)&lt;/td&gt;
+          &lt;td&gt;([0-9]&lt;em&gt;[1-9][0-9]&lt;/em&gt;))$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;负浮点数：^-([1-9]\d&lt;em&gt;.\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0.\d&lt;em&gt;[1-9]\d&lt;/em&gt;)$ 或 ^(-(([0-9]+.[0-9]&lt;em&gt;[1-9][0-9]&lt;/em&gt;)&lt;/td&gt;
+          &lt;td&gt;([0-9]&lt;em&gt;[1-9][0-9]&lt;/em&gt;.[0-9]+)&lt;/td&gt;
+          &lt;td&gt;([0-9]&lt;em&gt;[1-9][0-9]&lt;/em&gt;)))$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;浮点数：^(-?\d+)(.\d+)?$ 或 ^-?([1-9]\d&lt;em&gt;.\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0.\d&lt;em&gt;[1-9]\d&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;0?.0+&lt;/td&gt;
+          &lt;td&gt;0)$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;校验字符的表达式&quot;&gt;校验字符的表达式&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;汉字：^[\u4e00-\u9fa5]{0,}$&lt;/li&gt;
+  &lt;li&gt;英文和数字：^[A-Za-z0-9]+$ 或 ^[A-Za-z0-9]{4,40}$&lt;/li&gt;
+  &lt;li&gt;长度为3-20的所有字符：^.{3,20}$&lt;/li&gt;
+  &lt;li&gt;由26个英文字母组成的字符串：^[A-Za-z]+$&lt;/li&gt;
+  &lt;li&gt;由26个大写英文字母组成的字符串：^[A-Z]+$&lt;/li&gt;
+  &lt;li&gt;由26个小写英文字母组成的字符串：^[a-z]+$&lt;/li&gt;
+  &lt;li&gt;由数字和26个英文字母组成的字符串：^[A-Za-z0-9]+$&lt;/li&gt;
+  &lt;li&gt;由数字、26个英文字母或者下划线组成的字符串：^\w+$ 或 ^\w{3,20}$&lt;/li&gt;
+  &lt;li&gt;中文、英文、数字包括下划线：^[\u4E00-\u9FA5A-Za-z0-9_]+$&lt;/li&gt;
+  &lt;li&gt;中文、英文、数字但不包括下划线等符号：^[\u4E00-\u9FA5A-Za-z0-9]+$ 或 ^[\u4E00-\u9FA5A-Za-z0-9]{2,20}$&lt;/li&gt;
+  &lt;li&gt;可以输入含有^%&amp;amp;’,;=?$&quot;等字符：[^%&amp;amp;’,;=?$\x22]+&lt;/li&gt;
+  &lt;li&gt;禁止输入含有~的字符：[^~\x22]+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;特殊需求表达式&quot;&gt;特殊需求表达式&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Email地址：^\w+([-+.]\w+)&lt;em&gt;@\w+([-.]\w+)&lt;/em&gt;.\w+([-.]\w+)*$&lt;/li&gt;
+  &lt;li&gt;域名：[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(/.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+/.?&lt;/li&gt;
+  &lt;li&gt;InternetURL：[a-zA-z]+://[^\s]* 或 ^http://([\w-]+.)+[\w-]+(/[\w-./?%&amp;amp;=]*)?$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;手机号码：^(13[0-9]&lt;/td&gt;
+          &lt;td&gt;14[5&lt;/td&gt;
+          &lt;td&gt;7]&lt;/td&gt;
+          &lt;td&gt;15[0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
+          &lt;td&gt;6&lt;/td&gt;
+          &lt;td&gt;7&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;9]&lt;/td&gt;
+          &lt;td&gt;18[0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
+          &lt;td&gt;6&lt;/td&gt;
+          &lt;td&gt;7&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;9])\d{8}$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;电话号码(“XXX-XXXXXXX”、”XXXX-XXXXXXXX”、”XXX-XXXXXXX”、”XXX-XXXXXXXX”、”XXXXXXX”和”XXXXXXXX)：^((\d{3,4}-)&lt;/td&gt;
+          &lt;td&gt;\d{3.4}-)?\d{7,8}$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;国内电话号码(0511-4405222、021-87888822)：\d{3}-\d{8}&lt;/td&gt;
+          &lt;td&gt;\d{4}-\d{7}&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;身份证号(15位、18位数字)：^\d{15}&lt;/td&gt;
+          &lt;td&gt;\d{18}$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;短身份证号码(数字、字母x结尾)：^([0-9]){7,18}(x&lt;/td&gt;
+          &lt;td&gt;X)?$ 或 ^\d{8,18}&lt;/td&gt;
+          &lt;td&gt;[0-9x]{8,18}&lt;/td&gt;
+          &lt;td&gt;[0-9X]{8,18}?$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;帐号是否合法(字母开头，允许5-16字节，允许字母数字下划线)：^[a-zA-Z][a-zA-Z0-9_]{4,15}$&lt;/li&gt;
+  &lt;li&gt;密码(以字母开头，长度在6~18之间，只能包含字母、数字和下划线)：^[a-zA-Z]\w{5,17}$&lt;/li&gt;
+  &lt;li&gt;强密码(必须包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间)：^(?=.&lt;em&gt;\d)(?=.&lt;/em&gt;[a-z])(?=.*[A-Z]).{8,10}$&lt;/li&gt;
+  &lt;li&gt;日期格式：^\d{4}-\d{1,2}-\d{1,2}&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;一年的12个月(01～09和1～12)：^(0?[1-9]&lt;/td&gt;
+          &lt;td&gt;1[0-2])$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;一个月的31天(01～09和1～31)：^((0?[1-9])&lt;/td&gt;
+          &lt;td&gt;((1&lt;/td&gt;
+          &lt;td&gt;2)[0-9])&lt;/td&gt;
+          &lt;td&gt;30&lt;/td&gt;
+          &lt;td&gt;31)$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;钱的输入格式&quot;&gt;钱的输入格式&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;有四种钱的表示形式我们可以接受:”10000.00” 和 “10,000.00”, 和没有 “分” 的 “10000” 和 “10,000”：^[1-9][0-9]*$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;这表示任意一个不以0开头的数字,但是,这也意味着一个字符”0”不通过,所以我们采用下面的形式：^(0&lt;/td&gt;
+          &lt;td&gt;[1-9][0-9]*)$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;一个0或者一个不以0开头的数字.我们还可以允许开头有一个负号：^(0&lt;/td&gt;
+          &lt;td&gt;-?[1-9][0-9]*)$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;这表示一个0或者一个可能为负的开头不为0的数字.让用户以0开头好了.把负号的也去掉,因为钱总不能是负的吧.下面我们要加的是说明可能的小数部分：^[0-9]+(.[0-9]+)?$&lt;/li&gt;
+  &lt;li&gt;必须说明的是,小数点后面至少应该有1位数,所以”10.”是不通过的,但是 “10” 和 “10.2” 是通过的：^[0-9]+(.[0-9]{2})?$&lt;/li&gt;
+  &lt;li&gt;这样我们规定小数点后面必须有两位,如果你认为太苛刻了,可以这样：^[0-9]+(.[0-9]{1,2})?$&lt;/li&gt;
+  &lt;li&gt;这样就允许用户只写一位小数.下面我们该考虑数字中的逗号了,我们可以这样：^[0-9]{1,3}(,[0-9]{3})*(.[0-9]{1,2})?$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1到3个数字,后面跟着任意个 逗号+3个数字,逗号成为可选,而不是必须：^([0-9]+&lt;/td&gt;
+          &lt;td&gt;[0-9]{1,3}(,[0-9]{3})*)(.[0-9]{1,2})?$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;备注：这就是最终结果了,别忘了&lt;strong&gt;+&lt;/strong&gt;可以用*替代如果你觉得空字符串也可以接受的话(奇怪,为什么?)最后,别忘了在用函数时去掉去掉那个反斜杠,一般的错误都在这里&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;其他&quot;&gt;其他&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;xml文件：^([a-zA-Z]+-?)+[a-zA-Z0-9]+\.[x&lt;/td&gt;
+          &lt;td&gt;X][m&lt;/td&gt;
+          &lt;td&gt;M][l&lt;/td&gt;
+          &lt;td&gt;L]$&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;中文字符的正则表达式：[\u4e00-\u9fa5]&lt;/li&gt;
+  &lt;li&gt;双字节字符：[^\x00-\xff] (包括汉字在内，可以用来计算字符串的长度(一个双字节字符长度计2，ASCII字符计1))&lt;/li&gt;
+  &lt;li&gt;空白行的正则表达式：\n\s*\r (可以用来删除空白行)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;HTML标记的正则表达式：&amp;lt;(\S&lt;em&gt;?)[^&amp;gt;]&lt;/em&gt;&amp;gt;.*?&amp;lt;/\1&amp;gt;&lt;/td&gt;
+          &lt;td&gt;&amp;lt;.*? /&amp;gt; (网上流传的版本太糟糕，上面这个也仅仅能部分，对于复杂的嵌套标记依旧无能为力)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;首尾空白字符的正则表达式：^\s*&lt;/td&gt;
+          &lt;td&gt;\s&lt;em&gt;$或(^\s&lt;/em&gt;)&lt;/td&gt;
+          &lt;td&gt;(\s*$) (可以用来删除行首行尾的空白字符(包括空格、制表符、换页符等等)，非常有用的表达式)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;腾讯QQ号：[1-9][0-9]{4,} (腾讯QQ号从10000开始)&lt;/li&gt;
+  &lt;li&gt;中国邮政编码：[1-9]\d{5}(?!\d) (中国邮政编码为6位数字)&lt;/li&gt;
+  &lt;li&gt;IP地址：\d+.\d+.\d+.\d+ (提取IP地址时有用)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;IP地址：((?:(?:25[0-5]&lt;/td&gt;
+          &lt;td&gt;2[0-4]\d&lt;/td&gt;
+          &lt;td&gt;[01]?\d?\d)\.){3}(?:25[0-5]&lt;/td&gt;
+          &lt;td&gt;2[0-4]\d&lt;/td&gt;
+          &lt;td&gt;[01]?\d?\d))&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>SALOTHEPASSION</name></author><category term="Regular" /><summary type="html">Common Regular expression</summary></entry><entry><title type="html">常用GIt命令</title><link href="/2017/03/18/common-git-command.html" rel="alternate" type="text/html" title="常用GIt命令" /><published>2017-03-18T00:00:00+00:00</published><updated>2017-03-18T00:00:00+00:00</updated><id>/2017/03/18/common%20git%20command</id><content type="html" xml:base="/2017/03/18/common-git-command.html">&lt;h3 id=&quot;基本命令&quot;&gt;基本命令&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 安装Git&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git
+
+&lt;span class=&quot;c&quot;&gt;# 配置个人信息&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.name &lt;span class=&quot;s2&quot;&gt;&quot;Your Name&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email &lt;span class=&quot;s2&quot;&gt;&quot;email@example.com&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 切换目录初始化&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init
+
+&lt;span class=&quot;c&quot;&gt;# 文件添加到仓库&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &amp;lt;file&amp;gt;
+
+&lt;span class=&quot;c&quot;&gt;# 把文件提交到仓库&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;add LICENSE&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 查看仓库当前状态&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git status
+
+&lt;span class=&quot;c&quot;&gt;# 查看difference&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git diff
+
+&lt;span class=&quot;c&quot;&gt;# 显示从最近到最远的提交日志&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git log &lt;span class=&quot;nt&quot;&gt;--pretty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;oneline &lt;span class=&quot;c&quot;&gt;# 格式化输出信息&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 版本退回&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git reset &lt;span class=&quot;nt&quot;&gt;--hard&lt;/span&gt; HEAD^ &lt;span class=&quot;c&quot;&gt;# 当前版本HEAD,上一个版本HEAD^,上上个版本HEAD^^&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git reset &lt;span class=&quot;nt&quot;&gt;--hard&lt;/span&gt; 130f10a &lt;span class=&quot;c&quot;&gt;# 或HEAD~100&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 查看命令记录&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git reflog
+
+&lt;span class=&quot;c&quot;&gt;# 丢弃工作区的修改，回到最近一次git commit或git add时的状态：&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; README.md
+
+&lt;span class=&quot;c&quot;&gt;# 把暂存区的修改撤销掉（unstage）&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git reset HEAD READER.md
+
+&lt;span class=&quot;c&quot;&gt;# 从版本库中删除该文件&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git &lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;README.md
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;remove READER.md&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 把误删的文件恢复到最新版本，checkout其实用版本库里的版本替换工作区的版本&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; README.md&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;远程仓库&quot;&gt;远程仓库&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ssh-keygen &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rsa &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;youremail@example.com&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 测试是否成功&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ssh &lt;span class=&quot;nt&quot;&gt;-T&lt;/span&gt; git@github.com
+
+&lt;span class=&quot;c&quot;&gt;# 把一个已有的本地仓库与之关联&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote add origin git@github.com:Windrivder/Windrivder.git
+
+&lt;span class=&quot;c&quot;&gt;# 把本地库的所有内容推送到远程库上（推送master分支的内容）&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
+
+&lt;span class=&quot;c&quot;&gt;# 向远程库推送更新&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin master
+
+&lt;span class=&quot;c&quot;&gt;# 从远程库克隆&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone git@github.com:michaelliao/gitskills.git&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;分支管理&quot;&gt;分支管理&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 创建+切换dev分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; dev
+
+&lt;span class=&quot;c&quot;&gt;# 相当于&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch dev &lt;span class=&quot;c&quot;&gt;# 创建分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout dev
+
+&lt;span class=&quot;c&quot;&gt;# 查看当前分支，当前分支前面标有×号&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch
+
+&lt;span class=&quot;c&quot;&gt;# 切换回master分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout master
+
+&lt;span class=&quot;c&quot;&gt;# 合并指定分支到当前分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git merge dev
+
+&lt;span class=&quot;c&quot;&gt;# 删除dev分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; dev
+
+&lt;span class=&quot;c&quot;&gt;# 查看分支合并情况&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git log &lt;span class=&quot;nt&quot;&gt;--graph&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--pretty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;oneline &lt;span class=&quot;nt&quot;&gt;--abbrev-commit&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;   59bc1cb conflict fixed
+|&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; 75a857c AND simple
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; | 400b400 &amp;amp; simple
+|/
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; fec145a branch &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 删除feature1分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; feature1
+
+&lt;span class=&quot;c&quot;&gt;# 创建并切换dev分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; dev
+
+&lt;span class=&quot;c&quot;&gt;# 修改readme.txt文件，并提交一个新的commit&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add readme.txt
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;add merge&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 切换回master&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout master
+
+&lt;span class=&quot;c&quot;&gt;# 合并dev分支，请注意--no-ff参数，表示禁用Fast forward&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git merge &lt;span class=&quot;nt&quot;&gt;--no-ff&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;merge with no-ff&quot;&lt;/span&gt; dev
+
+&lt;span class=&quot;c&quot;&gt;# 看看分支历史&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git log &lt;span class=&quot;nt&quot;&gt;--graph&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--pretty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;oneline &lt;span class=&quot;nt&quot;&gt;--abbrev-commit&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;   7825a50 merge with no-ff
+|&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; 6224937 add merge
+|/
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;   59bc1cb conflict fixed
+
+&lt;span class=&quot;c&quot;&gt;# 如果需要临时修复Bug，可以把当前工作现场“储藏”起来，等Bug修复后恢复现场后继续工作&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git stash
+
+&lt;span class=&quot;c&quot;&gt;# 此时查看工作区是干净&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 切换到需要修复Bug的分支，创建临时分支来修复&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout master
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; issue-101
+
+&lt;span class=&quot;c&quot;&gt;# 修复完成后切换到master分支，完成合并，删除临时分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout master
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git merge &lt;span class=&quot;nt&quot;&gt;--no-ff&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;merged bug fix 101&quot;&lt;/span&gt; issue-101
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; issue-101
+
+&lt;span class=&quot;c&quot;&gt;# Bug修复后，切换回dev分支继续干活&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout dev
+
+&lt;span class=&quot;c&quot;&gt;# 查看工作现场列表&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git stash list
+
+&lt;span class=&quot;c&quot;&gt;# 恢复工作现场&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git stash pop &lt;span class=&quot;c&quot;&gt;# 恢复的同时把stash内容也删了&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git stash apply &lt;span class=&quot;c&quot;&gt;# 恢复，不删除stash的内容，使用git stash drop&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 再次查看工作现场列表，干净&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git stash list
+
+&lt;span class=&quot;c&quot;&gt;# 可以多次stash，恢复时指定恢复&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git stash apply stash@&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;0&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 强行删除一个没有合并过的分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; &amp;lt;name&amp;gt;
+
+&lt;span class=&quot;c&quot;&gt;# 要查看远程库的信息&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 推送其他分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin dev
+
+&lt;span class=&quot;c&quot;&gt;# 从远程库clone，默认情况只能看到master分支，需要在dev分支，必须创建远程origin的dev分支到本地&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; dev origin/dev
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; branch-name origin/branch-name
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch &lt;span class=&quot;nt&quot;&gt;--set-upstream&lt;/span&gt; branch-name origin/branch-name &lt;span class=&quot;c&quot;&gt;# 关联&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 向远程库推送dev有冲突&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git pull &lt;span class=&quot;c&quot;&gt;# 抓取到本地合并解决冲突，再向远程推送&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;标签管理&quot;&gt;标签管理&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 切换到需要打标签的分支&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git branch
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git checkout master
+
+&lt;span class=&quot;c&quot;&gt;# 创建标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git tag v1.0
+
+&lt;span class=&quot;c&quot;&gt;# 查看所有标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git tag
+
+&lt;span class=&quot;c&quot;&gt;# 给历史提高的commit id打标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git log &lt;span class=&quot;nt&quot;&gt;--pretty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;oneline &lt;span class=&quot;nt&quot;&gt;--abbrev-commit&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# 查看commit id&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git tag v0.9 6224937
+
+&lt;span class=&quot;c&quot;&gt;# 查看标签信息&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git show v0.9
+
+&lt;span class=&quot;c&quot;&gt;# 创建带有说明的标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git tag &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; v0.1 &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;version 0.1 released&quot;&lt;/span&gt; 3628164
+
+&lt;span class=&quot;c&quot;&gt;# 用PGP签名标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git tag &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &amp;lt;tagname&amp;gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;blablabla...&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 推送某个标签到远程&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin v1.0
+
+&lt;span class=&quot;c&quot;&gt;# 一次性推送全部尚未推送到远程的本地标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin &lt;span class=&quot;nt&quot;&gt;--tags&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 删除远程标签&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git tag &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; v0.9 &lt;span class=&quot;c&quot;&gt;# 删除本地&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin :refs/tags/v0.9 &lt;span class=&quot;c&quot;&gt;# 删除远程&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;自定义-git&quot;&gt;自定义 Git&lt;/h1&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 显示颜色，会让命令输出看起来更醒目&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; color.ui &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 忽略某些文件时，需要编写.gitignore，然后将.gitignore放到版本库中&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# st就表示status&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.st status
+
+&lt;span class=&quot;c&quot;&gt;# 配置一个unstage别名&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.unstage &lt;span class=&quot;s1&quot;&gt;'reset HEAD'&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git unstage test.py &lt;span class=&quot;c&quot;&gt;# 等价于&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git reset HEAD test.py
+
+&lt;span class=&quot;c&quot;&gt;# 显示最后一次提交信息&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.last &lt;span class=&quot;s1&quot;&gt;'log -1'&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# log&lt;/span&gt;
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.lg &lt;span class=&quot;s2&quot;&gt;&quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset' --abbrev-commit&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 每个仓库的配置文件放在.git/config&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 当前用户的配置文件放在用户主目录下的一个隐藏文件.gitconfig中&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>SALOTHEPASSION</name></author><category term="Git" /><summary type="html">基本命令 # 安装Git $ sudo apt install git</summary></entry><entry><title type="html">Generating a new SSH key and adding it to the ssh-agent</title><link href="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html" rel="alternate" type="text/html" title="Generating a new SSH key and adding it to the ssh-agent" /><published>2016-12-31T00:00:00+00:00</published><updated>2016-12-31T00:00:00+00:00</updated><id>/2016/12/31/Generating%20a%20new%20SSH%20key%20and%20adding%20it%20to%20the%20ssh-agent</id><content type="html" xml:base="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html">&lt;h1 id=&quot;add-to-ssh-agent&quot;&gt;add to ssh-agent&lt;/h1&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#打开终端&lt;/span&gt;
+ssh-keygen &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rsa &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; 4096 &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your_email@example.com&quot;&lt;/span&gt;
+
+Generating public/private rsa key pair.
+
+Enter a file &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;which to save the key &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/Users/you/.ssh/id_rsa&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;这里填入你生成rsa的路径] 
+
+Enter passphrase &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;empty &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;no passphrase&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Type a passphrase]
+Enter same passphrase again: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Type passphrase again]
+
+&lt;span class=&quot;c&quot;&gt;#Adding your SSH key to the ssh-agent&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;ssh-agent &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#这里的id_rsa是你生成&lt;/span&gt;
+ssh-add ~/.ssh/id_rsa
+
+&lt;span class=&quot;c&quot;&gt;#因为这个是往session里面添加key,所以当机器重启的的时候，需要重新再次往ssh-agent里面添加key&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>SALOTHEPASSION</name></author><category term="Git" /><summary type="html">add to ssh-agent #打开终端 ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</summary></entry></feed>
