@@ -1,5 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-29T03:23:26+00:00</updated><id>/feed.xml</id><title type="html">THEPASSION</title><subtitle>我的惆怅几时荡漾起微恙的涟漪&lt;br&gt; 于风中，于梦里，化作尘泥落红，只余香如故。
-</subtitle><author><name>THEPASSION</name></author><entry><title type="html">tools for osx</title><link href="/2019/09/13/tools-for-osx.html" rel="alternate" type="text/html" title="tools for osx" /><published>2019-09-13T00:00:00+00:00</published><updated>2019-09-13T00:00:00+00:00</updated><id>/2019/09/13/tools%20for%20osx</id><content type="html" xml:base="/2019/09/13/tools-for-osx.html">&lt;h1 id=&quot;tools-list&quot;&gt;tools list&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-11-13T03:49:10+00:00</updated><id>/feed.xml</id><title type="html">THEPASSION</title><subtitle>我的惆怅几时荡漾起微恙的涟漪&lt;br&gt; 于风中，于梦里，化作尘泥落红，只余香如故。
+</subtitle><author><name>THEPASSION</name></author><entry><title type="html">macOS brew install consul</title><link href="/2020/11/13/macOS-brew-install-consul.html" rel="alternate" type="text/html" title="macOS brew install consul" /><published>2020-11-13T00:00:00+00:00</published><updated>2020-11-13T00:00:00+00:00</updated><id>/2020/11/13/macOS%20brew%20install%20consul</id><content type="html" xml:base="/2020/11/13/macOS-brew-install-consul.html">&lt;h2 id=&quot;安装consul&quot;&gt;安装Consul&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;consul
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;配置consul启动项&quot;&gt;配置Consul启动项&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  vim /usr/local/opt/consul/homebrew.mxcl.consul.plist
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;plist&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;version=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;dict&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;KeepAlive&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;dict&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;SuccessfulExit&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;false/&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/dict&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;Label&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;homebrew.mxcl.consul&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;ProgramArguments&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;array&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;/usr/local/opt/consul/bin/consul&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;agent&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;-server&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;-bind&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;127.0.0.1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;-data-dir&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;./data&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;-ui&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/array&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;RunAtLoad&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;true/&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;WorkingDirectory&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;/usr/local/var&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;StandardErrorPath&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;/usr/local/var/log/consul.log&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;StandardOutPath&lt;span class=&quot;nt&quot;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;/usr/local/var/log/consul.log&lt;span class=&quot;nt&quot;&gt;&amp;lt;/string&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/dict&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/plist&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;重启consul&quot;&gt;重启Consul&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  brew services restart consul
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>THEPASSION</name></author><category term="macOS" /><summary type="html">安装Consul</summary></entry><entry><title type="html">tools for macOS</title><link href="/2019/09/13/tools-for-osx.html" rel="alternate" type="text/html" title="tools for macOS" /><published>2019-09-13T00:00:00+00:00</published><updated>2019-09-13T00:00:00+00:00</updated><id>/2019/09/13/tools%20for%20osx</id><content type="html" xml:base="/2019/09/13/tools-for-osx.html">&lt;h1 id=&quot;tools-list&quot;&gt;tools list&lt;/h1&gt;
 
 &lt;h2 id=&quot;startup&quot;&gt;startup&lt;/h2&gt;
 &lt;ul&gt;
@@ -63,7 +110,7 @@
   &lt;li&gt;sublime text&lt;/li&gt;
   &lt;li&gt;datagrip&lt;/li&gt;
   &lt;li&gt;postman&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>THEPASSION</name></author><category term="osx" /><summary type="html">tools list</summary></entry><entry><title type="html">clear git branch commit</title><link href="/2019/09/10/clear-git-branch-commit.html" rel="alternate" type="text/html" title="clear git branch commit" /><published>2019-09-10T00:00:00+00:00</published><updated>2019-09-10T00:00:00+00:00</updated><id>/2019/09/10/clear%20git%20branch%20commit</id><content type="html" xml:base="/2019/09/10/clear-git-branch-commit.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--orphan&lt;/span&gt; latest_branch
+&lt;/ul&gt;</content><author><name>THEPASSION</name></author><category term="macOS" /><summary type="html">tools list</summary></entry><entry><title type="html">clear git branch commit</title><link href="/2019/09/10/clear-git-branch-commit.html" rel="alternate" type="text/html" title="clear git branch commit" /><published>2019-09-10T00:00:00+00:00</published><updated>2019-09-10T00:00:00+00:00</updated><id>/2019/09/10/clear%20git%20branch%20commit</id><content type="html" xml:base="/2019/09/10/clear-git-branch-commit.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git checkout &lt;span class=&quot;nt&quot;&gt;--orphan&lt;/span&gt; latest_branch
 
 git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
 
@@ -681,22 +728,4 @@ git push &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; origin master&lt;/code
 &lt;span class=&quot;c&quot;&gt;# log&lt;/span&gt;
 git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.lg &lt;span class=&quot;s2&quot;&gt;&quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset' --abbrev-commit&quot;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# 每个仓库的配置文件放在.git/config&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# 当前用户的配置文件放在用户主目录下的一个隐藏文件.gitconfig中&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>THEPASSION</name></author><category term="Git" /><summary type="html">基本命令 # 安装Git $ sudo apt install git</summary></entry><entry><title type="html">Generating a new SSH key and adding it to the ssh-agent</title><link href="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html" rel="alternate" type="text/html" title="Generating a new SSH key and adding it to the ssh-agent" /><published>2016-12-31T00:00:00+00:00</published><updated>2016-12-31T00:00:00+00:00</updated><id>/2016/12/31/Generating%20a%20new%20SSH%20key%20and%20adding%20it%20to%20the%20ssh-agent</id><content type="html" xml:base="/2016/12/31/Generating-a-new-SSH-key-and-adding-it-to-the-ssh-agent.html">&lt;h1 id=&quot;add-to-ssh-agent&quot;&gt;add to ssh-agent&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#打开终端&lt;/span&gt;
-ssh-keygen &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rsa &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; 4096 &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your_email@example.com&quot;&lt;/span&gt;
-
-Generating public/private rsa key pair.
-
-Enter a file &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;which to save the key &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/Users/you/.ssh/id_rsa&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;这里填入你生成rsa的路径] 
-
-Enter passphrase &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;empty &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;no passphrase&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Type a passphrase]
-Enter same passphrase again: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Type passphrase again]
-
-&lt;span class=&quot;c&quot;&gt;#Adding your SSH key to the ssh-agent&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;ssh-agent &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#这里的id_rsa是你生成&lt;/span&gt;
-ssh-add ~/.ssh/id_rsa
-
-&lt;span class=&quot;c&quot;&gt;#因为这个是往session里面添加key,所以当机器重启的的时候，需要重新再次往ssh-agent里面添加key&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>THEPASSION</name></author><category term="Git" /><summary type="html">add to ssh-agent #打开终端 ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</summary></entry></feed>
+&lt;span class=&quot;c&quot;&gt;# 当前用户的配置文件放在用户主目录下的一个隐藏文件.gitconfig中&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>THEPASSION</name></author><category term="Git" /><summary type="html">基本命令 # 安装Git $ sudo apt install git</summary></entry></feed>
